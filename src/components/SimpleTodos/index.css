@@ -1,32 +1,73 @@
 /* Write your CSS here */
-.app-container {
+
+.bg-container {
   background-color: #ffc2a0;
   min-height: 100vh;
+  background-size: cover;
+  text-align: center;
+  padding: 30px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Roboto';
 }
-
-.todos-container {
-  background-color: #ffffff;
-  border-radius: 12px;
+.todo-card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  border-radius: 15px;
   padding: 30px;
-  width: 90%;
-  max-width: 700px;
-  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  margin-bottom: 15px;
 }
-
 .heading {
-  font-size: 28px;
+  font-size: 36px;
   font-weight: bold;
-  color: #ff8542;
-  text-align: center;
-  margin-bottom: 20px;
+  color: #e3824d;
+}
+.todo {
+  list-style-type: none;
+  width: 100%;
+}
+.input-div-container {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.input {
+  border-radius: 10px;
+  height: 45px;
+  width: 100%;
+  border-style: solid;
+  border-width: 0.2px;
+  border-color: lightgray;
+  outline: none;
+  padding: 8px;
+  margin-right: 15px;
+  font-size: 18px;
+  color: rgb(44, 43, 43);
+}
+.add-task-btn {
+  outline: none;
+  border-style: none;
+  height: 40px;
+  padding: 10px;
+  font-weight: 540;
+  font-size: 16px;
+  background-color: rgb(42, 99, 232);
+  color: white;
+  border-radius: 8px;
+  width: 80px;
+}
+.check-box {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+  margin-top: 8px;
 }
 
-.todos-list {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+.checked-title {
+  text-decoration: line-through;
 }

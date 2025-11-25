@@ -1,30 +1,55 @@
 /* Write your CSS here */
-.todo-item {
+.card {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #e4e7eb;
-  padding: 12px 0;
+  margin: 10px;
 }
-
-.todo-title {
-  font-size: 18px;
-  color: #000000;
-  margin: 0;
+.title {
+  font-size: 22px;
+  font-weight: 500;
+  padding-right: 25px;
+  text-align: left;
 }
-
-.delete-button {
-  background-color: #ffffff;
-  border: 1px solid #ff0b37;
-  border-radius: 5px;
+.delete-btn {
+  height: 35px;
+  width: 80px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ff0b37;
   color: #ff0b37;
-  padding: 6px 12px;
-  cursor: pointer;
-  font-size: 14px;
-  outline: none;
+  font-size: 16px;
+  padding: 6px;
+  border-radius: 10px;
 }
-
-.delete-button:hover {
-  background-color: #ff0b37;
-  color: #ffffff;
+.edit-input {
+  height: 35px;
+  width: 80%;
+  border-style: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: 520;
+}
+.save-edit-btn {
+  background-color: rgb(20, 232, 20);
+  color: white;
+  font-size: 16px;
+  font-weight: 520;
+  padding: 8px 15px 8px 15px;
+  border-radius: 8px;
+  outline: none;
+  border-style: none;
+  margin-right: 15px;
+  height: 35px;
+}
+.text-btn-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.input-label-div {
+  display: flex;
+  align-items: center;
+  margin-left: 6px;
 }
