@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #ffc2a0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.todos-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  width: 90%;
+  max-width: 700px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ff8542;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.todos-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
